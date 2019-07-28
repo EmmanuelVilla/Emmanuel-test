@@ -1,38 +1,13 @@
-.no-support {
-  text-align: center;
-  padding: 5px;
-  width: 450px;
-  margin-left: auto;
-  margin-right: auto;
-  background: #ee6620;
-  color: #fff;
-  font-size: 16px;
-}
-
-.example-wrapper {
-  text-align: center;
-  width: 400px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .container-f {
-  width: 320px;
-  height: 320px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 10px;
-  margin-bottom: 10px;
-  border: 2px solid #333;
+  height: 400px;
   overflow: scroll;
-  position: relative;
-  overflow-y:hidden;
-  
+  overflow-y:none;
+  verflow-x:hidden;
 }
 
 .element {
-  width: 300px;
-  height: 300px;
+  width: 480px;
+  height: 400px;
   scroll-margin: 10px;
   scroll-snap-align: start;
   scroll-snap-stop: normal;
@@ -61,10 +36,10 @@
 
 /* Below here just styles the container & elements so they look nice */
 .x-scroll .wrapper {
-  width: 1240px;
+  width: 2000px;
 }
 
 .x-scroll .element {
   float: left;
-  margin-right: 10px;
+  argin-right: 10px;
 }
